@@ -1,0 +1,77 @@
+# Ignore MATLAB auto-generated files
+*.asv
+*.mex*
+*.mexa*
+*.mlappinstall
+*.mltbx
+*.mltbx.*
+
+# Ignore MATLAB temporary files
+*.asv
+*.asv.*
+*.bak
+*.backup*
+*.swp
+*.tmp
+
+# Ignore MATLAB output files
+*.fig
+*.mat
+*.mex*
+*.o
+*.obj
+*.p
+*.png
+*.tif
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.pdf
+*.xls
+*.xlsx
+*.xlsb
+*.xlsm
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+
+# Ignore MATLAB project-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+*.settings/
+*.launch
+*.nmk
+*.rpt
+*.rpthtml
+*.rptproj
+*.tgz
+*.tikz
+*.trc
+*.wclog
+
+# Ignore compiled MATLAB code
+*.dll
+*.jar
+*.exe
+
+# Ignore MATLAB generated documentation
+doc/
+
+# Ignore generated MATLAB code
+codegen/
+
+# Ignore private and temporary MATLAB files
+private/
+temp/
