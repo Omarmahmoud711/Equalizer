@@ -9,12 +9,15 @@
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2020a%2B-0076A8?logo=mathworks&logoColor=white)
 ![No Toolbox Required](https://img.shields.io/badge/Toolbox-not%20required-2EA44F)
 ![MATLAB Online Basic](https://img.shields.io/badge/MATLAB%20Online%20Basic-ready-blue)
-![Last Commit](https://img.shields.io/github/last-commit/Omarmahmoud711/Equalizer?color=blue)
-![Repo Size](https://img.shields.io/github/repo-size/Omarmahmoud711/Equalizer?color=informational)
-![Top Language](https://img.shields.io/github/languages/top/Omarmahmoud711/Equalizer?color=orange)
 ![Stars](https://img.shields.io/github/stars/Omarmahmoud711/Equalizer?style=social)
 
 </div>
+
+---
+
+## 📸 Preview
+
+![Audio Equalizer GUI](screenshot.png)
 
 ---
 

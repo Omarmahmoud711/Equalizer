@@ -75,3 +75,6 @@ codegen/
 # Ignore private and temporary MATLAB files
 private/
 temp/
+
+# …except README assets
+!screenshot.png
