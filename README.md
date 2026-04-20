@@ -9,7 +9,7 @@
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2020a%2B-0076A8?logo=mathworks&logoColor=white)
 ![No Toolbox Required](https://img.shields.io/badge/Toolbox-not%20required-2EA44F)
 ![MATLAB Online Basic](https://img.shields.io/badge/MATLAB%20Online%20Basic-ready-blue)
-![Stars](https://img.shields.io/github/stars/Omarmahmoud711/Equalizer?style=social)
+![Platform](https://img.shields.io/badge/platform-browser-lightgrey)
 
 </div>
 
