@@ -8,18 +8,40 @@
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2020a%2B-0076A8?logo=mathworks&logoColor=white)
 ![No Toolbox Required](https://img.shields.io/badge/Toolbox-not%20required-2EA44F)
-![Runs on MATLAB Online Basic](https://img.shields.io/badge/MATLAB%20Online%20Basic-ready-blue)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![MATLAB Online Basic](https://img.shields.io/badge/MATLAB%20Online%20Basic-ready-blue)
+![Last Commit](https://img.shields.io/github/last-commit/Omarmahmoud711/Equalizer?color=blue)
+![Repo Size](https://img.shields.io/github/repo-size/Omarmahmoud711/Equalizer?color=informational)
+![Top Language](https://img.shields.io/github/languages/top/Omarmahmoud711/Equalizer?color=orange)
+![Stars](https://img.shields.io/github/stars/Omarmahmoud711/Equalizer?style=social)
 
 </div>
 
 ---
 
-## 📸 Screenshot
+## 🎛️ UI at a glance
 
-![Audio Equalizer GUI](docs/screenshot.png)
-
-<sub>*Drop a PNG at `docs/screenshot.png` to display it here.*</sub>
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│  [ Browse… ]   /path/to/audio.wav                         [ Save… ]    │
+├────────────────────────────────────────────────────────────────────────┤
+│                                                                        │
+│   ┌── Waveform ────────────┐       ┌── Spectrogram (dB) ──────────┐    │
+│   │    /\  /\    /\    /\  │       │  ▓▓▒▒░░   ▓▒░                │    │
+│   │   /  \/  \__/  \__/  \ │       │  ▓▓▓▒▒░░░ ▓▓▒░               │    │
+│   └────────────────────────┘       └──────────────────────────────┘    │
+│                                                                        │
+├────────────────────────── Equalizer ──────────┬──── Presets ───────────┤
+│                                               │                        │
+│    ║   ║   ║   ║   ║   ║   ║   ║   ║   ║      │  [Flat]  [Party]       │
+│    ║   ║   ║   ║   ║   ║   ║   ║   ║   ║      │  [Classical] [Techno]  │
+│    ║   ║   ║   ║   ║   ║   ║   ║   ║   ║      │  [Rock]  [Reggae]      │
+│                                               │         [Pop]          │
+│   30  60  170 310 600  1k  3k  6k  10k 20k    │                        │
+├────────────────────────── Playback ────────────────────────────────────┤
+│  [▶ Play]  [⏸ Pause]  [⏯ Resume]  [⏹ Stop]    Volume  ───●─── 80 %     │
+│  Status: Ready. Click Browse to load an audio file.                    │
+└────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -53,33 +75,6 @@
 6. Click **Browse…** → pick the audio → drag sliders or hit a preset → **Play**.
 
 > 🔔 The first time audio plays, your browser may ask for permission to play sound from `matlab.mathworks.com` — allow it.
-
----
-
-## 🎛️ UI Layout
-
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│  [ Browse… ]   /path/to/audio.wav                         [ Save… ]    │
-├────────────────────────────────────────────────────────────────────────┤
-│                                                                        │
-│   ┌── Waveform ────────────┐       ┌── Spectrogram (dB) ──────────┐    │
-│   │    /\  /\    /\    /\  │       │  ▓▓▒▒░░   ▓▒░                │    │
-│   │   /  \/  \__/  \__/  \ │       │  ▓▓▓▒▒░░░ ▓▓▒░               │    │
-│   └────────────────────────┘       └──────────────────────────────┘    │
-│                                                                        │
-├────────────────────────── Equalizer ──────────┬──── Presets ───────────┤
-│                                               │                        │
-│    ║   ║   ║   ║   ║   ║   ║   ║   ║   ║     │  [Flat]  [Party]       │
-│    ║   ║   ║   ║   ║   ║   ║   ║   ║   ║     │  [Classical] [Techno]  │
-│    ║   ║   ║   ║   ║   ║   ║   ║   ║   ║     │  [Rock]  [Reggae]      │
-│                                               │         [Pop]          │
-│   30  60  170 310 600  1k  3k  6k  10k 20k   │                        │
-├────────────────────────── Playback ────────────────────────────────────┤
-│  [▶ Play]  [⏸ Pause]  [⏯ Resume]  [⏹ Stop]      Volume  ───●─── 80 %   │
-│  Status: Ready. Click Browse to load an audio file.                    │
-└────────────────────────────────────────────────────────────────────────┘
-```
 
 ---
 
